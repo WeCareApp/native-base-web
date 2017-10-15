@@ -1,7 +1,7 @@
 {
-  "name": "native-base-web",
-  "description": "NativeBase for react-native-web",
-  "author": "Chion82",
+  "name": "wecare-native-base-web",
+  "description": "wecare NativeBase for react-native-web",
+  "author": "txs",
   "keywords": [
     "android",
     "ios",
@@ -14,7 +14,7 @@
     "packager",
     "rnpm"
   ],
-  "version": "0.0.4",
+  "version": "0.0.2",
   "private": false,
   "scripts": {
     "build": "del ./lib && babel . -d lib --ignore node_modules"

@@ -1,4 +1,4 @@
-NativeBase for Web
+wecare NativeBase for Web
 ------------------
 [![npm version](https://badge.fury.io/js/native-base-web.svg)](https://badge.fury.io/js/native-base-web)
 
@@ -82,5 +82,7 @@ Working components:
 Migrate from NativeBase projects
 --------------------------------
 It is probable to migrate your [NativeBase](http://nativebase.io/) project to a native-base-web project without changing lots of your code.
+
+In 0.02 fix the tap to close binding time latency 
 
 *WIP*
