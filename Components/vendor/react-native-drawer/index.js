@@ -303,6 +303,8 @@ export default class Drawer extends Component {
   processShouldSet = (e, gestureState) => {
     let inMask = this.testPanResponderMask(e, gestureState)
     if (!inMask) return false
+    // add for tap close
+    if (this._open) return false
     // skip gesture process if we have mostly vertical swipe
     if (!this._open && Math.abs(gestureState.dy) >= Math.abs(gestureState.dx)) return false
     this._panStartTime = Date.now()
